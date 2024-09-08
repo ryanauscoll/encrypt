@@ -1,0 +1,41 @@
+/* General background and layout */
+window {
+    background-color: #f5f6fa;
+}
+
+header-bar {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+/* Buttons - rounded, gradient effect */
+button#blue_button {
+    background: linear-gradient(to bottom right, #3498db, #2980b9);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button#blue_button:hover {
+    background: linear-gradient(to bottom right, #2980b9, #3498db);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Fields - round with light blue borders */
+entry {
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #2c3e50;
+    background-color: #00ccff;
+    transition: border-color 0.3s ease;
+}
+
+entry:focus {
+    border-color: #2980b9;
+}
